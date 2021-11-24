@@ -1,4 +1,4 @@
-This is an application that handles movie application that has 2 different modes:
+This is an application that handles movies and has 2 different modes:
   Admin mode where you can:
     -Add a movie.
     -Delete a movie.
