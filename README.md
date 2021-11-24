@@ -1,15 +1,23 @@
-# Assignment 10
-
-## Requirements
-1. Add multiple *undo* and *redo* functionality for the `add`, `remove`, and `update` operations. Implement this functionality using inheritance and polymorphism. You will have **Undo** and **Redo** buttons on the GUI, as well as a key combination to undo and redo the operations (e.g. `Ctrl+Z`, `Ctrl+Y`).
-
-2. Show the contents of the `adoption list` / `movie watch list` / `shopping basket` / `tutorial watch list` using a table view. You must use the [Qt View/Model](https://doc.qt.io/qt-5/modelview.html) components (`QTableView`). Create your own model – a class which inherits from [`QAbstractTableModel`](https://doc.qt.io/qt-5/qabstracttablemodel.html).
-
-## Bonus Possibility [0.1p]
-Add multiple *undo* and *redo* functionality for the `adoption list` / `movie watch list` / `shopping basket` / `tutorial watch list`. This will be tested through the application's GUI.
-
-## Bonus Possibility [0.1p]
-Use custom Qt delegates. In one of the columns of the Qt table view that shows the elements of the `adoption list` / **etc...**, display an image of the dog, trench coat or a play button that plays the movie trailer or the tutorial - depending on the problem statement. See the example images below.
-
-![image](https://user-images.githubusercontent.com/25611695/119180503-0bfef700-ba79-11eb-86ae-3a42d41bb437.png)
-![image](https://user-images.githubusercontent.com/25611695/119180582-2507a800-ba79-11eb-921c-22f64a05522b.png)
+This is an application that handles movie application that has 2 different modes:
+  Admin mode where you can:
+    -Add a movie.
+    -Delete a movie.
+    -Update a movie.
+    -Print all movies
+    -Undo/Redo all the actions
+  User mode where you can:
+    -Add a movie to the watchlist
+    -Delete a movie from the watchlist
+    -See the watchlist
+    -Open the watchlist
+    -Undo/Redo all the actions
+ This application has a GUI made with QT, so if you want this application to run you need to have QT installed and put the correct directory of 
+ the QT in the CMAKE file.
+ 
+ 
+ 
+![260591359_3179654522264186_7940512555561883763_n](https://user-images.githubusercontent.com/72079607/143250954-3fc280fd-315e-47a2-a3d5-5bdbc51f9f4b.png)
+![259844023_224675949803671_2476403872301742451_n](https://user-images.githubusercontent.com/72079607/143250956-4ba6232c-8ff7-4f98-b65d-a1bf52d794ce.png)
+![260009777_4634962259873865_2320725479013415357_n](https://user-images.githubusercontent.com/72079607/143250958-4c279fb8-0855-4fc1-a220-ee7fb3ab322e.png)
+![259399152_264431225745049_2054870401559174499_n](https://user-images.githubusercontent.com/72079607/143250961-62663dc0-091b-40ab-b2e0-c7d6373bf791.png)
+![259042071_266747038746218_3862968605754349713_n](https://user-images.githubusercontent.com/72079607/143250962-071cf299-d2d4-4638-95a5-9de0c574e5cf.png)
